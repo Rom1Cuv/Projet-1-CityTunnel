@@ -1,3 +1,4 @@
+@import url('seville.css');
 /*Fonts:*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
@@ -49,13 +50,13 @@ a:link, a:hover{
 
 /*Main content*/
 main {
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
 }
+
 
 section {
     padding: 1em;
@@ -80,4 +81,19 @@ footer {
 }
 footer h2 {
     color: var(--primary-color)
+}
+#cta {
+    font-size: 2em;
+    background: var(--primary-color);
+    color: var(--light);
+}
+
+/*Séville*/
+.seville {
+    background-image: url("./src/henrique-ferreira-62QRdDoe44M-unsplash.jpg");
+    width: 100%;
+}
+.seville h1 {
+    color: var(--light);
+    font-size: 3.5rem;
 }
