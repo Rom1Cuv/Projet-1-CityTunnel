@@ -1,23 +1,23 @@
-/*Fonts:*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
 /*Reset:*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /*Body:*/
 body {
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
 }
+
 /*CSS properties:*/
 :root {
     --primary-color: #ffb994;
     --secondary-color: #ffcc7d;
     --light: #fff;
     --dark: #000;
+    --margin-city: 1rem;
 }
 
 /*Header:*/
@@ -29,7 +29,7 @@ header {
     width: 100%;
     position: relative;
     background: var(--light);
-    border-bottom: 3px solid var(--secondary-color) ;
+    border-bottom: 3px solid var(--secondary-color);
     border-bottom-left-radius: 50% 51%;
     border-bottom-right-radius: 50% 51%;
 }
@@ -43,11 +43,18 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5em;
 }
-a:link, a:hover{
+
+a:link,
+a:hover {
     text-decoration: none;
 }
 
 /*Main content*/
+#bloc-page {
+    margin: auto;
+    width: 800px;
+}
+
 main {
 
     display: flex;
@@ -67,17 +74,42 @@ section {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px;
 }
 
+.banniere {
+    background: url("/images/rome/banniere.jpg") no-repeat;
+    border-radius: 5%;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.city {
+    margin: var(--margin-city);
+}
+
+/*Image fond h1*/
+
+
+
+/* Texte à côté des images */
+.article {
+    display: flex;
+    align-items: center;
+}
+
 /*Footer:*/
 .hr-footer {
-    border-bottom: 3px solid var(--secondary-color) ;
+    border-bottom: 3px solid var(--secondary-color);
     color: transparent;
 }
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5vh;
 }
+
 footer h2 {
     color: var(--primary-color)
 }
