@@ -5,6 +5,8 @@
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
     position: relative;
     overflow: hidden;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     /* Pour masquer les images sur les côtés */
 }
 
@@ -16,7 +18,7 @@
 .photo {
     width: 800px;
     height: 400px;
-    margin: 0;
+    
     display: flex;
     justify-content: center;
     align-items: center;
