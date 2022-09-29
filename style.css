@@ -1,6 +1,13 @@
 /*Fonts:*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+@font-face {
+    font-family:'MilkyCoffee';
+    src: url('Milky-Coffee.otf');
+    src: url('Milky-Coffee.ttf');
+  }
+
+
 /*Reset:*/
 * {
     padding: 0;
@@ -40,9 +47,11 @@ header {
     justify-content: center;
     align-items: center;
     color: var(--primary-color);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'MilkyCoffee';
+    text-shadow: 2px 2px;
     font-size: 1.5em;
 }
+
 a:link, a:hover{
     text-decoration: none;
 }
