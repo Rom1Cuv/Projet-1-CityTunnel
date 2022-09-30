@@ -1,6 +1,12 @@
 /*Fonts:*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+@font-face {
+    font-family: "Milky Coffee";
+    src: url("./milky_coffee/MilkyCoffee.otf");
+    src: url("./milky_coffee/MilkyCoffee.ttf");
+    }
+
 /*Reset:*/
 * {
     padding: 0;
@@ -32,6 +38,7 @@ header {
     border-bottom: 3px solid var(--secondary-color) ;
     border-bottom-left-radius: 50% 51%;
     border-bottom-right-radius: 50% 51%;
+    
 }
 
 /*Logo:*/
@@ -40,7 +47,8 @@ header {
     justify-content: center;
     align-items: center;
     color: var(--primary-color);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Milky Coffee';
+    text-shadow: 2px 1px black;
     font-size: 1.5em;
 }
 a:link, a:hover{
@@ -69,7 +77,9 @@ section {
 
 /*Footer:*/
 .hr-footer {
-    border-bottom: 3px solid var(--secondary-color) ;
+    border-top: 3px solid var(--secondary-color) ;
+    border-top-left-radius: 50% 51%;
+    border-top-right-radius: 50% 51%;
     color: transparent;
 }
 footer {
@@ -78,6 +88,10 @@ footer {
     align-items: center;
     height: 5vh;
 }
+    
 footer h2 {
-    color: var(--primary-color)
+    color: var(--primary-color);
+    font-family: 'Milky Coffee';
+    letter-spacing: 3px;
+    text-shadow: 1.5px 1px black;
 }
