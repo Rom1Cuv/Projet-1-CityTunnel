@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,10 @@
     <!-- UIkit CSS 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/css/uikit.min.css" />-->
     <link rel="stylesheet" href="style.css" class="css">
-    <title>Accueil</title>
+    <link rel="stylesheet" href="./stylecarrousel.css">
+    <title>City Tunnel </title>
 </head>
+
 <body>
     <header>
         <div>
@@ -16,28 +19,41 @@
             <h1><a href="index.html" alt="logo" id="logo">City Tunnel</a></h1>
         </div>
         <nav>
-            <div class="carousel">
-                <!--Didier-->
-            </div>
         </nav>
     </header>
     <main>
+        <div>
+            <div id="carrousel">
+                <div id="container">
+                </div>
+                <img src="images/bouton.png" class="bouton" id="g" />
+                <img src="images/bouton.png" class="bouton" id="d" />
+            </div>
+            <script src="carrousel.js"></script>
+        </div>
         <section>
             <h1>Hello</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates obcaecati, maxime tempore laudantium in, aut totam, quod deleniti perspiciatis ab debitis aspernatur autem a nemo voluptatum perferendis ea officia blanditiis cum tenetur hic? Architecto enim dignissimos veritatis omnis repudiandae dolorem doloribus reprehenderit. Repudiandae, quis est.</p>
+            <p>City tunnel vous fait découvrir les plus belles villes du monde. 
+            Partez à la découverte de lieux magiques sélectionnés par notre 
+            équipe de passionnés qui vous feront découvrir les incoutournables 
+            de leurs villes préférees. Du Mannekenpis bruxellois au marché au poisson de Tokyo, 
+            en passant par le Colisee à Rome, les tapas de Séville ou la K-pop de Séoul, 
+            notre site vous invite au voyage à travers le monde!</p></br>
             <div class="cta">
-                <!--Romain-->
-                <button>
-                    <h1>CTA</h1>
-                </button>
+              <button class="ctaButton">En manque d'inspiration ?</button>
             </div>
         </section>
     </main>
     <hr class="hr-footer">
     <footer>
         <form>
-            <!--Romain-->
-        </form>
+            <div class="formtitle">
+                <p><label for="suggestion">Laissez nous une suggestion!</label></p>
+            </div>
+            <div>
+                <textarea name="suggestion" id="suggestion" cols="25" rows="5"></textarea>
+            </div>          
+         </form>
         <h2>© Project Pikachu</h2>
     </footer>
     <!-- UIkit JS 

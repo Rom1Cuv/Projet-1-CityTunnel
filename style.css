@@ -13,17 +13,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /*Body:*/
 body {
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
 }
+
 /*CSS properties:*/
 :root {
     --primary-color: #ffb994;
     --secondary-color: #ffcc7d;
     --light: #fff;
     --dark: #000;
+    --margin-city: 1rem;
 }
 
 /*Header:*/
@@ -35,7 +38,7 @@ header {
     width: 100%;
     position: relative;
     background: var(--light);
-    border-bottom: 3px solid var(--secondary-color) ;
+    border-bottom: 3px solid var(--secondary-color);
     border-bottom-left-radius: 50% 51%;
     border-bottom-right-radius: 50% 51%;
     
@@ -51,11 +54,18 @@ header {
     text-shadow: 2px 1px black;
     font-size: 1.5em;
 }
-a:link, a:hover{
+
+a:link,
+a:hover {
     text-decoration: none;
 }
 
 /*Main content*/
+#bloc-page {
+    margin: auto;
+    width: 800px;
+}
+
 main {
 
     display: flex;
@@ -75,6 +85,29 @@ section {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px;
 }
 
+.banniere {
+    background: url("/images/rome/banniere.jpg") no-repeat;
+    border-radius: 5%;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.city {
+    margin: var(--margin-city);
+}
+
+/*Image fond h1*/
+
+
+
+/* Texte à côté des images */
+.article {
+    display: flex;
+    align-items: center;
+}
+
 /*Footer:*/
 .hr-footer {
     border-top: 3px solid var(--secondary-color) ;
@@ -82,13 +115,13 @@ section {
     border-top-right-radius: 50% 51%;
     color: transparent;
 }
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5vh;
 }
-    
 footer h2 {
     color: var(--primary-color);
     font-family: 'Milky Coffee';
