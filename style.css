@@ -86,6 +86,7 @@ a:link, a:hover{
 #bloc-page {
     margin: auto;
     width: 800px;
+    background-color: whitesmoke
 }
 
 main {
@@ -97,6 +98,17 @@ main {
     text-align: center;
 }
 
+.banniere {
+    background: url("/images/rome/banniere.jpg") no-repeat;
+    border-radius: 5%;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-bottom: 15px;
+}
+
 section {
     padding: 1em;
     margin: 1em;
@@ -106,7 +118,6 @@ section {
     flex-direction: column;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px;
 }
-
 
 .cta {
     display: flex;
@@ -145,14 +156,26 @@ section {
     margin: var(--margin-city);
 }
 
-/*Image fond h1*/
-
-
+.citytitle {
+    margin: 10px;
+}
 
 /* Texte à côté des images */
 .article {
     display: flex;
     align-items: center;
+    border: solid grey 1px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.article-img {
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.text-img {
+    text-align: center;
 
 }
 
