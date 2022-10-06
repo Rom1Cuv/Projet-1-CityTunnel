@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit+CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="../css/style.css" class="css">
+    <title>Rome</title>
+</head>
+<body>
+    <div uk-sticky>
+        <header>
+            <div class="uk-animation-toggle" id="top1">
+                <a href="../index.html" id="logo">
+                    <img src="../images/logo-light.png" alt="logo" class="uk-animation-shake">
+                    <img src="../images/tunnel-rose.png" alt="tunnel img" class="uk-animation-shake" id="tunnel">
+                </a>
+            </div>
+        </header>
+    </div>
+    <nav class="carousel">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
+
+            <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid">
+                <li>
+                    <div class="uk-panel uk-animation-toggle">
+                        <a href="bruxelles.html"><img src="../images/im1.jpg" width="400" height="600" alt="bruxelles" class=" uk-animation-scale-up">
+                        <div class="uk-position-center uk-panel"><h1>Bruxelles</h1></div></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel uk-animation-toggle">
+                        <a href="tokyo.html"><img src="../images/im2.jpg" width="400" height="600" alt="tokyo" class=" uk-animation-scale-up">
+                        <div class="uk-position-center uk-panel"><h1>Tokyo</h1></div></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel uk-animation-toggle">
+                        <a href="rome.html"><img src="../images/im3.jpg" width="400" height="600" alt="rome" class=" uk-animation-scale-up">
+                        <div class="uk-position-center uk-panel"><h1>Rome</h1></div></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel uk-animation-toggle">
+                        <a href="seoul.html"><img src="../images/im4.jpg" width="400" height="600" alt="seoul" class=" uk-animation-scale-up">
+                        <div class="uk-position-center uk-panel"><h1>Séoul</h1></div></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel uk-animation-toggle">
+                        <a href="seville.html"><img src="../images/im5.jpg" width="400" height="600" alt="seville" class=" uk-animation-scale-up">
+                        <div class="uk-position-center uk-panel"><h1>Séville</h1></div></a>
+                    </div>
+                </li>
+            </ul>
+        
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"  uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        
+        </div>
+    </nav>
+
+    <main>
+        <div class="banniere"></div>
+        <section>
+            <div class="city">
+                <h1 class="citytitle">Visitez Rome</h1>
+                <p class="cityintro">Bienvenue dans cité éternelle!<br>Rome ne s'est pas constrituite en un jour et
+                    vous
+                    trouverez sur
+                    cette
+                    page les merveilles la ville qui s'est façonnée au fil des civilisations.<br>Segui il leader...
+                </p>
+            </div>
+            <!--Navigateur à ajouter sur le côté, qui apparait lorsque l'on va sur le bord gauche.
+            Pousse le contenu de la page vers la droite -->
+            <nav></nav>
+            <div>
+                <h2>Monuments à ne pas louper</h2>
+                <div class="monuments">
+                    <div class="article">
+                        <article class="text-img">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptates
+                            obcaecati,
+                            maxime tempore
+                            laudantium
+                            in, aut totam, quod deleniti perspiciatis ab debitis aspernatur autem a nemo voluptatum
+                            perferendis
+                            ea
+                            officia blanditiis cum tenetur hic? Architecto enim dignissimos veritatis omnis
+                            repudiandae
+                            dolorem
+                            doloribus reprehenderit. Repudiandae, quis est.</article>
+                        <img src="../images/rome/colisee.jpg" alt="Colisée de Rome" class="article-img"></img>
+                        <!-- Texte sur le côté gauche de l'image-->
+                    </div>
+                    <div class="article">
+                        <img src="../images/rome/fontainetrevi.jpg" alt="Fontaine de Trevi" class="article-img"></img>
+                        <article class="text-img">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptates
+                            obcaecati,
+                            maxime tempore
+                            laudantium
+                            in, aut totam, quod deleniti perspiciatis ab debitis aspernatur autem a nemo voluptatum
+                            perferendis
+                            ea
+                            officia blanditiis cum tenetur hic? Architecto enim dignissimos veritatis omnis
+                            repudiandae
+                            dolorem
+                            doloribus reprehenderit. Repudiandae, quis est.</article>
+                    </div>
+                    <!-- Texte sur le côté droit de l'image-->
+                    <div class="article">
+                        <article class="text-img">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptates
+                            obcaecati,
+                            maxime tempore
+                            laudantium
+                            in, aut totam, quod deleniti perspiciatis ab debitis aspernatur autem a nemo voluptatum
+                            perferendis
+                            ea
+                            officia blanditiis cum tenetur hic? Architecto enim dignissimos veritatis omnis
+                            repudiandae
+                            dolorem
+                            doloribus reprehenderit. Repudiandae, quis est.</article>
+                        <img src="../images/rome/pantheon.jpg" alt="Pantheon" class="article-img"></img>
+                        <!-- Texte sur le côté gauche de l'image-->
+                    </div>
+                    <div class="article">
+                        <img src="../images/rome/vatican.jpg" alt="Vatican" class="article-img"></img>
+                        <article class="text-img">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptates
+                            obcaecati,
+                            maxime tempore
+                            laudantium
+                            in, aut totam, quod deleniti perspiciatis ab debitis aspernatur autem a nemo voluptatum
+                            perferendis
+                            ea
+                            officia blanditiis cum tenetur hic? Architecto enim dignissimos veritatis omnis
+                            repudiandae
+                            dolorem
+                            doloribus reprehenderit. Repudiandae, quis est.</article>
+                        <!-- Texte sur le côté gauche de l'image-->
+                    </div>
+                </div>
+                <h2>Les meilleurs tables</h2>
+                <div class="restaurants">
+                    <!-- Texte à copier-->
+                </div>
+                <h2>Sorties culturelles</h2>
+                <div class="sports">
+                    <!-- Texte à copier-->
+                </div>
+            </div>
+            <div class="link-touroperator">
+                <!-- -->
+                <button onclick="window.location.href = 'lien vers un tour operateur';">Reservez votre voyage avec
+                    notre
+                    partenaire</button>
+            </div>
+        </section>
+        <a href="#top3" uk-totop uk-scroll></a>
+    </main>
+        
+    <hr class="hr-footer">
+
+    <footer>
+        <div class="uk-inline pikachu">
+            <button class="uk-button uk-button-default" type="button">Team Pikachu</button>
+            <div class="uk-card uk-card-body uk-card-default" uk-drop="mode: click" alt="pikachu img"><img src="../images/pikachu.jpg" alt="pikachu img">
+                <a href="https://github.com/AlfianScottlaine"><img src="../images/github-logo.png" alt="github-logo" width="15" height="15">Scott,</a>   
+                <a href="https://www.linkedin.com/in/romain-cuvelier-739436196/"  target="new">
+                <img src="../images/LinkedIn-logo.png" alt="linkedin-logo" width="15" height="15">Romain,</a>
+                <a href="https://github.com/Nemesis-DarK"><img src="../images/github-logo.png" alt="github-logo" width="15" height="15">Fouad</a>
+                <br>
+                <a href="https://www.linkedin.com/in/didier-guy-b918b979/"  target="new"><img src="../images/LinkedIn-logo.png" alt="linkedin-logo" width="15" height="15">Didier &</a>
+                <a href="https://www.linkedin.com/in/cedricpierson01/" target="new"><img src="../images/LinkedIn-logo.png" alt="linkedin-logo" width="15" height="15">Cédric</a>
+                <br>
+                <strong>LA DREAM TEAM !</strong>
+            </div>
+        </div>
+    </footer>
+    <!-- UIkit+JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit-icons.min.js"></script>    
+</body>
+</html>
