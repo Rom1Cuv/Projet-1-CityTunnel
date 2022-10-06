@@ -1,0 +1,417 @@
+@media screen and (min-width: 601px) { 
+    main.part2 { 
+      display: flex;
+      
+    } 
+
+    @font-face {
+        font-family:'MilkyCoffee';
+        src: url(MilkyCoffee/Milky-Coffee.otf);
+        src: url(MilkyCoffee/Milky-Coffee.ttf);
+    }
+   
+    .part1{
+    display: flex;
+    }
+
+    .photobru{
+        display: flex;
+        margin-top: 10px; 
+    }
+
+    .imgGrandplace{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .presentationbru{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20%;
+    }
+
+    .part2{
+        display: flex;
+    }
+
+    .divCouple{
+        display: flex;
+    }
+
+    .divDetails{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        background-color: rgb(228, 174, 218);
+        border: 2px solid white;
+        border-radius: 20px;
+    }
+
+    .rubriqueMannekenpis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .uk-position-relative{
+        margin-left: 45px;
+    }
+
+    .rubriqueGastronomie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rubriqueArchitecture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .suggestionMusee{
+        margin-right: 10%;
+    }
+
+    .rubriqueBandedessinee{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rubriqueBieres{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuClassementBieres{
+        display: flex;
+        margin-top: 20px;
+        margin-right: 20%;  
+    }
+
+    .uk-inline{
+        margin-top: 10px;
+        
+    }
+
+    .rubriqueCinema{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texteDetails h3{
+        text-align: center;
+    }
+
+    .uk-button{
+        margin-top: 20px;
+        width: 300px;
+        }
+
+    .Mannekenpis-img{
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    .Moulesfrites-img{
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    .Horta-img{
+        min-width: 200px;
+        min-height: 200px;
+     }
+
+    .Tintin-img{
+        min-width: 200px;
+        min-height: 200px;;
+    }
+
+    
+    .pralines-img{
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    .Bieresbelges-img{
+        min-width: 200px;
+        min-height: 200px;
+    }
+    
+    .Cinema-img{
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    
+
+  }
+
+
+:root {
+    --primary-color: #ffb994;
+    --secondary-color: #ffcc7d;
+    --light: #fff;
+    --dark: #000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    background: var(--light);
+    border-bottom: 3px solid lightgrey ;
+    border-bottom-left-radius: 50% 51%;
+    border-bottom-right-radius: 50% 51%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bb8e9b;
+    font-family: 'MilkyCoffee';
+    text-shadow: 2px 1px black;
+    letter-spacing: 0.5rem;
+    font-size: 1 rem;
+}
+
+a:link, a:hover{
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light);
+    
+}
+
+
+@font-face {
+    font-family:'MilkyCoffee';
+    src: url(MilkyCoffee/Milky-Coffee.otf);
+    src: url(MilkyCoffee/Milky-Coffee.ttf);
+  }
+  
+.part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bb8e9b;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 2px;
+    font
+    
+}
+
+.photobru{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.imgGrandplace{
+    
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  
+}
+
+.presentationbru{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 20px;
+    text-align: justify;
+    
+    margin: 3px;
+}
+
+.presentationbru h1{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.part2{
+    
+}
+
+
+.divDetails{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: #bb8e9b;
+    margin-bottom: 2px;
+ }
+
+.imgDetails{
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.Mannekenpis-img{
+    background-image: url(https://i.pinimg.com/originals/06/e9/6c/06e96ccffeca34a6b52be8719eaf0ee6.gif);
+    
+}
+.Moulesfrites-img{
+    background-image: url(https://sf1.viepratique.fr/wp-content/uploads/sites/2/2014/02/shutterstock_115952584.jpg);
+    
+}
+.Horta-img{
+    background-image: url(http://patrimoine.brussels/images/decouvrir/chantiers/hotel-van-eetvelde-2/@@images/05fc2a4b-71c2-4ca4-bf9c-b3418bc09cd5.jpeg) ;
+    
+}
+.Tintin-img{
+    background-image: url(https://cdn001.tintin.com/public/tintin/img/static/essentials-test/tintin-milou.png) ;
+    
+}
+.pralines-img{
+    background-image: url(https://img.cuisineaz.com/680x357/2019/07/21/i148221-.webp);
+    
+}
+.Bieresbelges-img{
+    background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/6I6HWEV26BDKHOYZX3W4BQANCA.jpg);
+    
+}
+.Cinema-img{
+    background-image: url(https://www.vivreenbelgique.be/images/vivreenbelgique/fiche18/entree-sur-scene-internationale-andre-delvaux.jpg);
+    
+}
+
+.texteDetails{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    
+}
+
+.rubriqueMannekenpis{
+    flex-direction: column;
+}
+
+.slideTitle{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.uk-position-relative{
+    width: 220px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.uk-position-center-right{
+    margin-right: 25%;
+}
+.uk-slideshow-items{
+    margin-right: 20%;
+    margin-top: 15px;
+}
+
+.rubriqueGastronomie{
+    flex-direction: column;
+}
+.rubriqueArchitecture{
+    flex-direction: column;
+}
+.suggestionMusee{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+
+.rubriqueBieres{
+    display: flex;
+}
+.uk-button{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.menuClassementBieres{
+    margin-top: -15px;  
+    
+}
+
+
+.rubriqueCinema{
+    flex-direction: column;
+}
+.dikkenek{
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+.cta {
+    display: flex;
+    justify-content: center ;
+    align-items: center;  
+}
+
+.ctaButton{
+    border: 2px solid;
+    border-radius: 15px;
+    height: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(228, 174, 218);
+    margin-top: 10px;
+}
+
+#suggestion{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contactform{
+    display: flex;
+    justify-content: center;
+}
+
+.formtitle{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slideTitle{
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
