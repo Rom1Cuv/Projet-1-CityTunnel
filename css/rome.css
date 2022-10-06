@@ -167,6 +167,7 @@ section {
     min-width: 2rem;
     margin: 0 1.5rem;
     color: var(--navbar-icon-color);
+    border-radius: 0;
 }
 
 .navbar-item:hover .navbar-icon {
