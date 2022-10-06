@@ -1,92 +1,157 @@
 @media screen and (min-width: 601px) { 
-    main { 
-      display: flex; 
+    main.part2 { 
+      display: flex;
+      
     } 
-   
-    .photobru{
-        margin-top: 30px; 
-     }
 
-     /*carousel*/
-     
-    
-
-     /*carousel*/
-
-    
-    .presentationbru h1{
-       text-align: center;
+    @font-face {
+        font-family:'MilkyCoffee';
+        src: url(MilkyCoffee/Milky-Coffee.otf);
+        src: url(MilkyCoffee/Milky-Coffee.ttf);
     }
-    .presentationbru p{
-        text-align: justify;
-        margin-left: 10%;
+   
+    .part1{
+    display: flex;
+    }
+
+    .photobru{
+        display: flex;
+        margin-top: 10px; 
+    }
+
+    .imgGrandplace{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .presentationbru{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20%;
+    }
+
+    .part2{
+        display: flex;
+    }
+
+    .divCouple{
+        display: flex;
+    }
+
+    .divDetails{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        background-color: rgb(228, 174, 218);
+        border: 2px solid white;
+        border-radius: 20px;
+    }
+
+    .rubriqueMannekenpis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .uk-position-relative{
+        margin-left: 45px;
+    }
+
+    .rubriqueGastronomie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rubriqueArchitecture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .suggestionMusee{
         margin-right: 10%;
     }
-    .Decouvrir{
+
+    .rubriqueBandedessinee{
         display: flex;
-        align-items: center;  
-    }  
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rubriqueBieres{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuClassementBieres{
+        display: flex;
+        margin-top: 20px;
+        margin-right: 20%;  
+    }
+
+    .uk-inline{
+        margin-top: 10px;
+        
+    }
+
+    .rubriqueCinema{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texteDetails h3{
+        text-align: center;
+    }
+
+    .uk-button{
+        margin-top: 20px;
+        width: 300px;
+        }
+
     .Mannekenpis-img{
-        min-width: 150px;
+        min-width: 200px;
+        min-height: 200px;
     }
 
-    .Gastronomie{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
-    .Moulesfrites-img{min-width: 150px;
+    .Moulesfrites-img{
+        min-width: 200px;
+        min-height: 200px;
     }
 
-    .Architecture{
-        display: flex;
-        align-items: center;
-    }
-    .Horta-img{min-width: 150px;
+    .Horta-img{
+        min-width: 200px;
+        min-height: 200px;
      }
 
-    .BD{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
     .Tintin-img{
-        min-width: 150px;
+        min-width: 200px;
+        min-height: 200px;;
     }
 
-    .Chocolat{
-        display: flex;
-        align-items: center;
-    }
-    .Pralines{
-        min-width: 150px;
+    
+    .pralines-img{
+        min-width: 200px;
+        min-height: 200px;
     }
 
-    .Biere{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
     .Bieresbelges-img{
-        min-width: 150px;
+        min-width: 200px;
+        min-height: 200px;
     }
-    .Evenements{
-        display: flex;
-        align-items: center;
+    
+    .Cinema-img{
+        min-width: 200px;
+        min-height: 200px;
     }
-    .Spectaclegrandplace-img{
-        min-width: 150px;
-    }
+
+    
 
   }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--light);
-    
-}
 
 :root {
     --primary-color: #ffb994;
@@ -103,7 +168,7 @@ header {
     width: 100%;
     position: relative;
     background: var(--light);
-    border-bottom: 3px solid var(--secondary-color) ;
+    border-bottom: 3px solid lightgrey ;
     border-bottom-left-radius: 50% 51%;
     border-bottom-right-radius: 50% 51%;
 }
@@ -112,219 +177,196 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--primary-color);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
+    color: #bb8e9b;
+    font-family: 'MilkyCoffee';
+    text-shadow: 2px 1px black;
+    letter-spacing: 0.5rem;
+    font-size: 1 rem;
 }
+
 a:link, a:hover{
     text-decoration: none;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light);
+    
+}
+
+
+@font-face {
+    font-family:'MilkyCoffee';
+    src: url(MilkyCoffee/Milky-Coffee.otf);
+    src: url(MilkyCoffee/Milky-Coffee.ttf);
+  }
+  
 .part1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #bb8e9b;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 2px;
+    font
     
-     
 }
 
 .photobru{
    display:flex;
+   flex-direction: column;
    justify-content: center;
+   align-items: center;
 }
 
-
 .imgGrandplace{
-    height: 60%;
-    width: 60%;
-    border: 5px solid white;
-    border-radius: 50px;
+    
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
     margin-top: 20px;
+    margin-bottom: 20px;
+    
+  
 }
 
 .presentationbru{
     padding-top: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 20px;
     text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
+    
+    margin: 3px;
 }
 
-.part2{}
+.presentationbru h1{
+    text-align: center;
+    font-size: 1.2rem;
+}
 
-.Decouvrir{}
+.part2{
+    
+}
+
+
+.divDetails{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: #bb8e9b;
+    margin-bottom: 2px;
+ }
+
+.imgDetails{
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
 
 .Mannekenpis-img{
-    background-image: url(https://images0.persgroep.net/rcs/mNsz_cLujtKCj9ilzCdVaa3-BMU/diocontent/147870802/_crop/131/264/1444/817/_fill/1200/630/?appId=21791a8992982cd8da851550a453bd7f&quality=0.7);
-    background-position: center;
-    background-size: cover;
-    border: 5px solid white;
-    border-radius: 50px;
-    height: 150px;
-    width: 150px;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.TexteDecouvrir{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-image: url(https://i.pinimg.com/originals/06/e9/6c/06e96ccffeca34a6b52be8719eaf0ee6.gif);
     
 }
-
-/*----------------------*/
-
-.Gastronomie{
-    
-}
-
 .Moulesfrites-img{
     background-image: url(https://sf1.viepratique.fr/wp-content/uploads/sites/2/2014/02/shutterstock_115952584.jpg);
-    background-position: center;
-    background-size: cover;
-    border: 5px solid white;
-    border-radius: 50px;
-    height: 150px;
-    width: 150px;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    
 }
-
-.TexteGastronomie{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+.Horta-img{
+    background-image: url(http://patrimoine.brussels/images/decouvrir/chantiers/hotel-van-eetvelde-2/@@images/05fc2a4b-71c2-4ca4-bf9c-b3418bc09cd5.jpeg) ;
+    
 }
-
-/*----------------------*/
-
-.Architecture{
+.Tintin-img{
+    background-image: url(https://cdn001.tintin.com/public/tintin/img/static/essentials-test/tintin-milou.png) ;
+    
+}
+.pralines-img{
+    background-image: url(https://img.cuisineaz.com/680x357/2019/07/21/i148221-.webp);
+    
+}
+.Bieresbelges-img{
+    background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/6I6HWEV26BDKHOYZX3W4BQANCA.jpg);
+    
+}
+.Cinema-img{
+    background-image: url(https://www.vivreenbelgique.be/images/vivreenbelgique/fiche18/entree-sur-scene-internationale-andre-delvaux.jpg);
     
 }
 
-.Horta-img{
-    background-image: url(http://patrimoine.brussels/images/decouvrir/chantiers/hotel-van-eetvelde-2/@@images/05fc2a4b-71c2-4ca4-bf9c-b3418bc09cd5.jpeg) ;
-    background-position: center;
-    background-size: cover;
-    border: 5px solid white;
-    border-radius: 50px;
-    height: 150px;
-    width: 150px;
-    margin-top: 10%;
-    margin-bottom: 5%;
+.texteDetails{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    
+}
+
+.rubriqueMannekenpis{
+    flex-direction: column;
+}
+
+.slideTitle{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.uk-position-relative{
+    width: 220px;
     margin-left: 10%;
     margin-right: 10%;
 }
+.uk-position-center-right{
+    margin-right: 25%;
+}
+.uk-slideshow-items{
+    margin-right: 20%;
+    margin-top: 15px;
+}
 
-.TexteArchitecture{
-    margin-top: 5%;
+.rubriqueGastronomie{
+    flex-direction: column;
+}
+.rubriqueArchitecture{
+    flex-direction: column;
+}
+.suggestionMusee{
+    text-align: left;
+    margin-top: 20px;
     margin-left: 10%;
-    margin-right: 10%;
 }
 
-/*----------------------*/
 
-.BD{}
-
-.Tintin-img{
-    background-image: url(https://cdn001.tintin.com/public/tintin/img/static/essentials-test/tintin-milou.png) ;
-    background-position: center;
-    background-size: cover;
-    border: 5px solid white;
-    border-radius: 50px;
-    height: 150px;
-    width: 150px;
-    margin-top: 10%;
-    margin-bottom: 5%;
+.rubriqueBieres{
+    display: flex;
+}
+.uk-button{
+    margin-top: 20px;
     margin-left: 10%;
-    margin-right: 10%;
 }
 
-.TexteBD{
-    margin-top: 5%;
+.menuClassementBieres{
+    margin-top: -15px;  
+    
+}
+
+
+.rubriqueCinema{
+    flex-direction: column;
+}
+.dikkenek{
+    text-align: left;
     margin-left: 10%;
-    margin-right: 10%;
 }
 
-.Chocolat{}
-
-.Pralines{
-    background-image: url(https://img.cuisineaz.com/680x357/2019/07/21/i148221-.webp);
-    background-position: center;
-    background-size: cover;
-    border: 5px solid white;
-    border-radius: 50px;
-    height: 150px;
-    width: 150px;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.TexteChocolat{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-/*----------------------*/
-
-.Biere{
-}
-
-.Bieresbelges-img{
-    background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/6I6HWEV26BDKHOYZX3W4BQANCA.jpg);
-    background-position: center;
-    background-size: cover;
-    border: 5px solid white;
-    border-radius: 50px;
-    height: 150px;
-    width: 150px;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.TexteBiere{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-/*----------------------*/
-
-.Evenements{
-}
-
-.Spectaclegrandplace-img{
-    background-image: url(https://www.bruxelles.be/sites/default/files/bxl/Evenements%2C%20culture%2C%20sports%2C%20loisirs/Lieux%20culturels/ommegang.jpg);
-    background-position: center;
-    background-size: cover;
-    border: 5px solid white;
-    border-radius: 50px;
-    height: 150px;
-    width: 150px;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.TexteEvenements{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-/*----------------------*/
 
 .cta {
     display: flex;
@@ -337,7 +379,7 @@ a:link, a:hover{
     border-radius: 15px;
     height: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #ffcc7d;
+    background-color: rgb(228, 174, 218);
     margin-top: 10px;
 }
 
@@ -356,6 +398,11 @@ a:link, a:hover{
     display: flex;
     justify-content: center;
     
+}
+
+.slideTitle{
+    text-align: left;
+    margin-left: 10%;
 }
 
 
