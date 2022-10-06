@@ -7,6 +7,7 @@
   "main": "\u001b[D\u001b[Dindex\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[ex.js)",
   "dependencies": {
     "asap": "^2.0.6",
+    "assert": "^2.0.0",
     "asynckit": "^0.4.0",
     "balanced-match": "^1.0.2",
     "brace-expansion": "^2.0.1",

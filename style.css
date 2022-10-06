@@ -2,17 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 @font-face {
-    font-family:'MilkyCoffee';
+    font-family: 'MilkyCoffee';
     src: url(MilkyCoffee/Milky-Coffee.otf);
     src: url(MilkyCoffee/Milky-Coffee.ttf);
-  }
+}
 
-
-  @media screen and (min-width: 400px) {
-    body{
+@media screen and (min-width: 400px) {
+    body {
         width: 100%;
     }
-  }
+}
 
 /*Reset:*/
 * {
@@ -46,10 +45,9 @@ header {
     width: 100%;
     position: relative;
     background: var(--light);
-    border-bottom: 3px solid var(--primary-color) ;
+    border-bottom: 3px solid var(--primary-color);
     border-bottom-left-radius: 50% 51%;
     border-bottom-right-radius: 50% 51%;
-    
 }
 
 /*Logo:*/
@@ -64,7 +62,8 @@ header {
     font-size: 5rem;
 }
 
-a:link, a:hover{
+a:link,
+a:hover {
     text-decoration: none;
 }
 
@@ -72,41 +71,16 @@ a:link, a:hover{
     width: 80px;
     height: 70px;
     margin-left: 2rem;
-    
-}
-
-#castle {
-    width: 200px;
-    height: 190px;
-    margin-left: 2rem;
-    
 }
 
 /*Main content*/
-#bloc-page {
-    margin: auto;
-    width: 800px;
-    background-color: whitesmoke
-}
 
 main {
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-}
-
-.banniere {
-    background: url("/images/rome/banniere.jpg") no-repeat;
-    border-radius: 5%;
-    height: 500px;
-    width: 100%;
-    margin-top: 10px;
-    position: relative;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    margin-bottom: 15px;
 }
 
 section {
@@ -121,35 +95,24 @@ section {
 
 .cta {
     display: flex;
-    justify-content: center ;
-    align-items: center; 
-    border-top: 10px; 
+    justify-content: center;
+    align-items: center;
+    border-top: 10px;
 }
 
-.ctaButton{
+.ctaButton {
     border: 3px solid;
     border-radius: 25px;
     font-size: larger;
     padding-left: 10px;
     padding-right: 10px;
     height: 3rem;
-    width: ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: salmon;
-
 }
 
-.buttonsubtitle{
+.buttonsubtitle {
     font-size: small;
-}
-
-.banniere {
-    background: url("/images/rome/banniere.jpg") no-repeat;
-    border-radius: 5%;
-    height: 500px;
-    width: 100%;
-    margin-top: 10px;
-    position: relative;
 }
 
 .city {
@@ -160,32 +123,12 @@ section {
     margin: 10px;
 }
 
-/* Texte à côté des images */
-.article {
-    display: flex;
-    align-items: center;
-    border: solid grey 1px;
-    border-radius: 30px;
-    margin: 20px;
-}
-
-.article-img {
-    border-radius: 30px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.text-img {
-    text-align: center;
-
-}
-
 /*Footer:*/
 .hr-footer {
-    border-top: 3px solid var(--secondary-color) ;
+    border-top: 3px solid var(--secondary-color);
     border-top-left-radius: 50% 51%;
     border-top-right-radius: 50% 51%;
     color: transparent;
-    
 }
 
 footer {
@@ -194,43 +137,39 @@ footer {
     align-items: center;
     height: 15vh;
     background: var(--light);
-    border-top: 3px solid var(--primary-color) ;
+    border-top: 3px solid var(--primary-color);
     border-top-left-radius: 50% 51%;
     border-top-right-radius: 50% 51%;
 }
 
-
 footer h2 {
-
     color: var(--primary-color)
-    
 }
 
-#suggestion{
+#suggestion {
     display: flex;
     justify-content: center;
 }
 
-.contactform{
+.contactform {
     display: flex;
     justify-content: center;
 }
 
-.formtitle{
+.formtitle {
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
-.suggestiontext{
+.suggestiontext {
     display: flex;
     justify-content: center;
 }
 
-.pikachubottom{
+.pikachubottom {
     justify-content: flex-end;
     padding: 20px;
-
     color: var(--primary-color);
     font-family: 'MilkyCoffee';
     text-shadow: 2px 1px black;
