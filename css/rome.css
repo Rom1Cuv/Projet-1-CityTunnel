@@ -1,0 +1,381 @@
+/*Fonts:*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@font-face {
+    font-family: 'MilkyCoffee';
+    src: url(MilkyCoffee/Milky-Coffee.otf);
+    src: url(MilkyCoffee/Milky-Coffee.ttf);
+}
+
+:root {
+    --navbar-background-color: #f2f2f2;
+    --navbar-item-hovered-color: white;
+    --navbar-separator-color: #ececec;
+    --navbar-icon-color: #646c79;
+    --navbar-text-color: black;
+    --navbar-transition-speed: .2s;
+    --primary-color: #ffb994;
+    --secondary-color: #ffcc7d;
+    --light: #fff;
+    --dark: #000;
+    --margin-city: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background-color: var(--secondary-color);
+}
+
+#bloc-page {
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+    background-color: whitesmoke
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    background: var(--light);
+    border-bottom: 3px solid var(--primary-color);
+    border-bottom-left-radius: 50% 51%;
+    border-bottom-right-radius: 50% 51%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    font-family: 'MilkyCoffee';
+    text-shadow: 2px 1px black;
+    letter-spacing: 0.5rem;
+    font-size: 5rem;
+}
+
+.city {
+    margin: var(--margin-city);
+}
+
+.citytitle {
+    color: antiquewhite;
+    text-align: center;
+    margin: 25px;
+}
+
+a:link,
+a:hover {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+section {
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px;
+}
+
+.city-section {
+    background-color: burlywood;
+    padding: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 15px 0px;
+    border-radius: 50px;
+}
+
+#tunnel {
+    width: 80px;
+    height: 70px;
+    margin-left: 2rem;
+}
+
+.navbar {
+    width: 5rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: var(--navbar-background-color);
+    box-shadow: rgba(12, 43, 30, 0.2) 0 4px 14px;
+    transition: width var(--navbar-transition-speed) ease;
+}
+
+.navbar:hover {
+    width: 12rem;
+}
+
+.navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-item {
+    width: 100%;
+    border-bottom: solid 1px var(--navbar-separator-color);
+}
+
+.navbar-item:hover {
+    background-color: var(--navbar-item-hovered-color);
+    opacity: 0.5;
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 5rem;
+    width: 100%;
+    text-decoration: none;
+}
+
+.navbar-icon {
+    text-align: center;
+    font-size: 1.5rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    color: var(--navbar-icon-color);
+}
+
+.navbar-item:hover .navbar-icon {
+    color: var(--primary-color);
+}
+
+.navbar-title {
+    color: var(--navbar-text-color);
+}
+
+.navbar:not(:hover) .navbar-title {
+    display: none;
+}
+
+.categories {
+    background-color: cornsilk;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.article {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    border: solid grey 1px;
+    border-radius: 30px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.article-img {
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.text-img {
+    text-align: center;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.hr-footer {
+    border-top: 3px solid var(--secondary-color);
+    border-top-left-radius: 50% 51%;
+    border-top-right-radius: 50% 51%;
+    color: transparent;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15vh;
+    background: var(--light);
+    border-top: 3px solid var(--primary-color);
+    border-top-left-radius: 50% 51%;
+    border-top-right-radius: 50% 51%;
+}
+
+footer h2 {
+    color: var(--primary-color)
+}
+
+#suggestion {
+    display: flex;
+    justify-content: center;
+}
+
+.contactform {
+    display: flex;
+    justify-content: center;
+}
+
+.formtitle {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.suggestiontext {
+    display: flex;
+    justify-content: center;
+}
+
+.pikachubottom {
+    justify-content: flex-end;
+    padding: 20px;
+    color: var(--primary-color);
+    font-family: 'MilkyCoffee';
+    text-shadow: 2px 1px black;
+    letter-spacing: 0.05rem;
+    font-size: 2rem;
+
+}
+
+@media screen and (max-width:960px) {
+
+    main {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        text-align: justify;
+    }
+
+    .citytitle {
+        font-size: 2.5rem;
+        color: antiquewhite;
+        text-align: center;
+    }
+
+    header {
+        border-bottom: solid 2px black;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .slider,
+    h3,
+    .text-img {
+        display: none;
+    }
+
+    .items-monuments,
+    .items-restaurants,
+    .items-culture {
+        margin: 30px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .article {
+        margin: 1vw;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+
+    .article-img {
+        border: thin #c0c0c0 solid;
+        border-radius: 30px;
+        max-height: 200px;
+        max-width: 200px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+
+    figure {
+        display: flex;
+        flex-flow: column;
+        padding: 5px;
+        max-width: 220px;
+        margin: auto;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 5rem;
+        position: fixed;
+        top: unset;
+        bottom: 0px;
+        left: 0px;
+        margin: auto;
+        background-color: var(--navbar-background-color);
+        box-shadow: rgba(12, 43, 30, 0.2) 0 4px 14px;
+        opacity: 0.65;
+        transition: width var(--navbar-transition-speed) ease;
+    }
+
+    .navbar:hover {
+        width: 100vw;
+    }
+
+    .navbar-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        list-style-type: none;
+    }
+
+    .navbar-title {
+        display: none;
+    }
+
+    .navbar-item {
+        margin-top: 50px;
+        border-bottom: 0;
+    }
+
+    .navbar-icon {
+        text-align: center;
+        font-size: 1.5rem;
+        min-width: 2rem;
+        margin: 0 5rem;
+        color: var(--navbar-icon-color);
+    }
+
+    footer {
+        display: none;
+    }
+}
