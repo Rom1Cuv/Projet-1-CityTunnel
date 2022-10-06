@@ -1,0 +1,183 @@
+@import url('seville.css');
+@import url('bru.mobile.css');
+/*Fonts:*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@500&display=swap');
+
+/*Reset:*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Body:*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+img {
+    border-radius: 15px;
+}
+
+/*CSS properties:*/
+:root {
+    --primary-color: #e00061;
+    --secondary-color: #9b0060;
+    --light: #fff;
+    --dark: #000;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/*Header:*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    position: relative;
+    background: var(--primary-color);
+    border-bottom: 3px solid var(--secondary-color) ;
+    border-bottom-left-radius: 50% 51%;
+    border-bottom-right-radius: 50% 51%;
+}
+
+/*Logo:*/
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: var(--primary-color);
+    font-size: 1.5em;
+    max-width: 500px;
+}
+
+#tunnel {
+    display: none;
+    max-width: 60px;
+    border-radius: 0;
+    margin: 0 0 0.5em 1em;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover, a:focus {
+    color: var(--secondary-color);
+}
+
+/*Carousel:*/
+.carousel {
+    width: 100%;
+    padding: 1em;
+
+}
+
+.carousel h1{
+    font-size: 6vw;
+}
+
+li .uk-panel img{
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+}
+
+.centered {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  /*Main content*/
+  main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    section {
+    padding: 2em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px;
+    max-width: 90ch;
+    border-radius: 15px;
+    color: var(--primary-color);
+}
+
+section h1{
+    color: var(--secondary-color);
+}
+
+#cta {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1em;
+    padding: 0.5em;
+    background: var(--primary-color);
+    color: var(--light);
+    border-radius: 5px;
+}
+
+.decouvrir h3{
+    color: var(--secondary-color);
+}
+
+.contactform {
+    padding: 1em;
+}
+
+.mail {
+    width: auto;
+}
+.temperature {
+    background-color: var(--primary-color);
+}
+/*Footer:*/
+
+.hr-footer {
+    border-bottom: 3px solid var(--secondary-color) ;
+    color: transparent;
+}
+
+footer .pikachu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1em 3em 1em 1em;
+}
+footer p {
+    color: var(--primary-color)
+}
+
+.pikachu button {
+    background-image: url("../images/pikachu.jpg");
+}
+
+/*Media queries*/
+
+/*Desktop:*/
+@media screen and (min-width: 960px){
+    .carousel h1 {
+        font-size: 4vw;
+    }
+
+    #tunnel {
+        display: inline;
+    }
+}
+
+
