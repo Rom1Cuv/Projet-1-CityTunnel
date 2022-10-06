@@ -8,6 +8,7 @@
     "w3c": "node w3c-validator.js"
   },
   "type": "module",
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/didierguy/ProjetGlobeTrotteur.git"
