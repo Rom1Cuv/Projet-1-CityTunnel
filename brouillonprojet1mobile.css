@@ -1,0 +1,36 @@
+.cta {
+    display: flex;
+    justify-content: center ;
+    align-items: center;  
+}
+
+.ctaButton{
+    border: 2px solid;
+    border-radius: 15px;
+    height: 2rem;
+    width: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: salmon;
+}
+
+#suggestion{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contactform{
+    display: flex;
+    justify-content: center;
+}
+
+.formtitle{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
