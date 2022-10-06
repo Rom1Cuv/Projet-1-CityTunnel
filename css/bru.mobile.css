@@ -1,0 +1,370 @@
+@media screen and (min-width: 601px) { 
+    main { 
+      display: flex; 
+    } 
+   
+    .photobru{
+        margin-top: 30px; 
+     }
+
+     /*carousel*/
+     
+    
+
+     /*carousel*/
+
+    
+    .presentationbru h1{
+       text-align: center;
+    }
+    .presentationbru p{
+        text-align: justify;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .Decouvrir{
+        display: flex;
+        align-items: center;  
+    }  
+    .Mannekenpis-img{
+        min-width: 150px;
+    }
+
+    .Gastronomie{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .Moulesfrites-img{min-width: 150px;
+    }
+
+    .Architecture{
+        display: flex;
+        align-items: center;
+    }
+    .Horta-img{min-width: 150px;
+     }
+
+    .BD{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .Tintin-img{
+        min-width: 150px;
+    }
+
+    .Chocolat{
+        display: flex;
+        align-items: center;
+    }
+    .Pralines{
+        min-width: 150px;
+    }
+
+    .Biere{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .Bieresbelges-img{
+        min-width: 150px;
+    }
+    .Evenements{
+        display: flex;
+        align-items: center;
+    }
+    .Spectaclegrandplace-img{
+        min-width: 150px;
+    }
+
+  }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light);
+    
+}
+
+:root {
+    --primary-color: #ffb994;
+    --secondary-color: #ffcc7d;
+    --light: #fff;
+    --dark: #000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    background: var(--light);
+    border-bottom: 3px solid var(--secondary-color) ;
+    border-bottom-left-radius: 50% 51%;
+    border-bottom-right-radius: 50% 51%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+}
+a:link, a:hover{
+    text-decoration: none;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+     
+}
+
+.photobru{
+   display:flex;
+   justify-content: center;
+}
+
+
+.imgGrandplace{
+    height: 60%;
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.presentationbru{
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.part2{}
+
+.Decouvrir{}
+
+.Mannekenpis-img{
+    background-image: url(https://images0.persgroep.net/rcs/mNsz_cLujtKCj9ilzCdVaa3-BMU/diocontent/147870802/_crop/131/264/1444/817/_fill/1200/630/?appId=21791a8992982cd8da851550a453bd7f&quality=0.7);
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.TexteDecouvrir{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+/*----------------------*/
+
+.Gastronomie{
+    
+}
+
+.Moulesfrites-img{
+    background-image: url(https://sf1.viepratique.fr/wp-content/uploads/sites/2/2014/02/shutterstock_115952584.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.TexteGastronomie{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*----------------------*/
+
+.Architecture{
+    
+}
+
+.Horta-img{
+    background-image: url(http://patrimoine.brussels/images/decouvrir/chantiers/hotel-van-eetvelde-2/@@images/05fc2a4b-71c2-4ca4-bf9c-b3418bc09cd5.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.TexteArchitecture{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*----------------------*/
+
+.BD{}
+
+.Tintin-img{
+    background-image: url(https://cdn001.tintin.com/public/tintin/img/static/essentials-test/tintin-milou.png) ;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.TexteBD{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Chocolat{}
+
+.Pralines{
+    background-image: url(https://img.cuisineaz.com/680x357/2019/07/21/i148221-.webp);
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.TexteChocolat{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*----------------------*/
+
+.Biere{
+}
+
+.Bieresbelges-img{
+    background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/6I6HWEV26BDKHOYZX3W4BQANCA.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.TexteBiere{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*----------------------*/
+
+.Evenements{
+}
+
+.Spectaclegrandplace-img{
+    background-image: url(https://www.bruxelles.be/sites/default/files/bxl/Evenements%2C%20culture%2C%20sports%2C%20loisirs/Lieux%20culturels/ommegang.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.TexteEvenements{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*----------------------*/
+
+.cta {
+    display: flex;
+    justify-content: center ;
+    align-items: center;  
+}
+
+.ctaButton{
+    border: 2px solid;
+    border-radius: 15px;
+    height: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffcc7d;
+    margin-top: 10px;
+}
+
+#suggestion{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contactform{
+    display: flex;
+    justify-content: center;
+}
+
+.formtitle{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
