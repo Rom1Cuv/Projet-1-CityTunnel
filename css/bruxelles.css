@@ -4,14 +4,9 @@
       
     } 
 
-    @font-face {
-        font-family:'MilkyCoffee';
-        src: url(MilkyCoffee/Milky-Coffee.otf);
-        src: url(MilkyCoffee/Milky-Coffee.ttf);
-    }
-   
     .part1{
     display: flex;
+   
     }
 
     .photobru{
@@ -22,6 +17,11 @@
     .imgGrandplace{
         width: 80%;
         margin-bottom: 10px;
+    }
+
+    .presentationbru h1{
+        color: rgb(0, 0, 0);
+        
     }
 
     .presentationbru{
@@ -36,6 +36,7 @@
 
     .divCouple{
         display: flex;
+        
     }
 
     .divDetails{
@@ -43,9 +44,12 @@
         flex-direction: column;
         width: 50%;
         align-items: center;
-        background-color: rgb(228, 174, 218);
-        border: 2px solid white;
+        margin: 5px;
         border-radius: 20px;
+    }
+
+    .imgDetails{
+        margin-right: 30%;
     }
 
     .rubriqueMannekenpis{
@@ -54,16 +58,13 @@
         align-items: center;
     }
 
-    .uk-position-relative{
-        margin-left: 45px;
-    }
-
     .rubriqueGastronomie{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
     }
 
+    
     .rubriqueArchitecture{
         display: flex;
         flex-direction: column;
@@ -89,7 +90,7 @@
     .menuClassementBieres{
         display: flex;
         margin-top: 20px;
-        margin-right: 20%;  
+        ;  
     }
 
     .uk-inline{
@@ -102,6 +103,11 @@
         flex-direction: column;
         align-items: center;
     }
+
+    button{
+        margin-left: 5%;
+    }
+    
 
     .texteDetails h3{
         text-align: center;
@@ -173,17 +179,6 @@ header {
     border-bottom-right-radius: 50% 51%;
 }
 
-#logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #bb8e9b;
-    font-family: 'MilkyCoffee';
-    text-shadow: 2px 1px black;
-    letter-spacing: 0.5rem;
-    font-size: 1 rem;
-}
-
 a:link, a:hover{
     text-decoration: none;
 }
@@ -207,11 +202,14 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #bb8e9b;
     margin-top: 10px;
     border-radius: 20px;
     margin-bottom: 2px;
-    font
+    color: #000;
+    border-top: 5px solid rgb(128, 0, 64);
+    border-bottom: 5px solid rgb(128, 0, 64);
+    border-left: 1px solid rgb(128, 0, 64);
+    border-right: 1px solid rgb(128, 0, 64);
     
 }
 
@@ -245,7 +243,8 @@ main{
 
 .presentationbru h1{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4em;
+    color: rgb(128, 0, 64);
 }
 
 .part2{
@@ -258,8 +257,13 @@ main{
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 20px;
-    background-color: #bb8e9b;
+    border-top: 5px solid rgb(128, 0, 64);
+    border-bottom: 5px solid rgb(128, 0, 64);
+    border-left: 1px solid rgb(128, 0, 64);
+    border-right: 1px solid rgb(128, 0, 64);
     margin-bottom: 2px;
+    color: #000;
+    
  }
 
 .imgDetails{
@@ -269,8 +273,8 @@ main{
     border-radius: 20px;
     height: 150px;
     width: 150px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 30%;
+    
     
 }
 
@@ -307,15 +311,20 @@ main{
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
-    
+}
+
+.texteDetails h3{
+    color: rgb(128, 0, 64);
+    text-align: center;
 }
 
 .rubriqueMannekenpis{
     flex-direction: column;
+    
 }
 
 .slideTitle{
-    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -327,6 +336,7 @@ main{
     margin-top: 15px;
 }
 
+
 .rubriqueGastronomie{
     flex-direction: column;
 }
@@ -334,17 +344,18 @@ main{
     flex-direction: column;
 }
 .suggestionMusee{
-    text-align: left;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 15px;
     margin-left: 10%;
 }
 
 .rubriqueBieres{
-    display: flex;
+    flex-direction: column;
 }
-.uk-button{
+.uk-button uk-button-default{
     margin-top: 20px;
-    margin-left: 10%;
+    color: #000;
+    
 }
 
 .menuClassementBieres{
