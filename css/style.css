@@ -5,6 +5,12 @@
 /*Fonts:*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@500&display=swap');
 
+@font-face {
+    font-family:'MilkyCoffee';
+    src: url(MilkyCoffee/Milky-Coffee.otf);
+    src: url(MilkyCoffee/Milky-Coffee.ttf);
+  }
+
 /*Reset:*/
 * {
     padding: 0;
