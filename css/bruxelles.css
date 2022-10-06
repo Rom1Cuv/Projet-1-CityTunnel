@@ -167,7 +167,7 @@ header {
     height: 20vh;
     width: 100%;
     position: relative;
-    background: var(--light);
+    background: #bb8e9b;
     border-bottom: 3px solid lightgrey ;
     border-bottom-left-radius: 50% 51%;
     border-bottom-right-radius: 50% 51%;
@@ -319,11 +319,6 @@ main{
     text-align: center;
 }
 
-.uk-position-relative{
-    width: 220px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 .uk-position-center-right{
     margin-right: 25%;
 }
@@ -344,7 +339,6 @@ main{
     margin-left: 10%;
 }
 
-
 .rubriqueBieres{
     display: flex;
 }
@@ -354,53 +348,13 @@ main{
 }
 
 .menuClassementBieres{
-    margin-top: -15px;  
-    
+    margin-top: -15px;      
 }
-
 
 .rubriqueCinema{
     flex-direction: column;
 }
 .dikkenek{
-    text-align: left;
-    margin-left: 10%;
-}
-
-
-.cta {
-    display: flex;
-    justify-content: center ;
-    align-items: center;  
-}
-
-.ctaButton{
-    border: 2px solid;
-    border-radius: 15px;
-    height: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(228, 174, 218);
-    margin-top: 10px;
-}
-
-#suggestion{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.contactform{
-    display: flex;
-    justify-content: center;
-}
-
-.formtitle{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.slideTitle{
     text-align: left;
     margin-left: 10%;
 }

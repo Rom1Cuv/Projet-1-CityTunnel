@@ -1,7 +1,3 @@
-@import url('seville.css');
-@import url('bru.mobile.css');
-@import url('carrousel.css');
-
 /*Fonts:*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@500&display=swap');
 
@@ -17,6 +13,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /*Body:*/
 body {
     font-family: 'Montserrat', sans-serif;
@@ -28,7 +25,7 @@ img {
     border-radius: 15px;
 }
 
-/*CSS properties:*/
+/*CSS root properties:*/
 :root {
     --primary-color: #e00061;
     --secondary-color: #9b0060;
@@ -104,6 +101,7 @@ li .uk-panel img{
     justify-content: center;
     font-size: 3rem;
   }
+
   /*Main content*/
   main {
       display: flex;
@@ -154,8 +152,8 @@ section h1{
 .temperature {
     background-color: var(--primary-color);
 }
-/*Footer:*/
 
+/*Footer:*/
 .hr-footer {
     border-bottom: 3px solid var(--secondary-color) ;
     color: transparent;
@@ -176,13 +174,11 @@ footer p {
 }
 
 /*Media queries*/
-
 /*Desktop:*/
 @media screen and (min-width: 960px){
     .carousel h1 {
         font-size: 4vw;
     }
-
     #tunnel {
         display: inline;
     }
