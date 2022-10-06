@@ -7,29 +7,23 @@
     src: url(MilkyCoffee/Milky-Coffee.ttf);
   }
 
-
-  @media screen and (min-width: 400px) {
-    body{
-        width: 100%;
+  
+  /*Reset:*/
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
     }
-  }
-
-/*Reset:*/
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/*Body:*/
-body {
-    font-family: 'Montserrat', sans-serif;
-    height: 100vh;
-    background-color: var(--secondary-color);
-}
-
-/*CSS properties:*/
-:root {
+    
+    /*Body:*/
+    body {
+        font-family: 'Montserrat', sans-serif;
+        height: 100vh;
+        background-color: var(--secondary-color);
+    }
+    
+    /*CSS properties:*/
+    :root {
     --primary-color: #ffb994;
     --secondary-color: #ffcc7d;
     --light: #fff;
@@ -75,13 +69,6 @@ a:link, a:hover{
     
 }
 
-#castle {
-    width: 200px;
-    height: 190px;
-    margin-left: 2rem;
-    
-}
-
 /*Main content*/
 #bloc-page {
     margin: auto;
@@ -89,17 +76,19 @@ a:link, a:hover{
 }
 
 main {
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    background-color: var(--secondary-color);
 }
 
 section {
     padding: 1em;
     margin: 1em;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,18 +96,6 @@ section {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px;
 }
 
-.banniere {
-    background: url("/images/rome/banniere.jpg") no-repeat;
-    border-radius: 5%;
-    height: 500px;
-    width: 100%;
-    margin-top: 10px;
-    position: relative;
-}
-
-.city {
-    margin: var(--margin-city);
-}
 
 /*Image fond h1*/
 
@@ -132,7 +109,7 @@ section {
 
 /*Footer:*/
 .hr-footer {
-    border-top: 3px solid var(--secondary-color) ;
+    border-top: 3px solid var(--primary-color) ;
     border-top-left-radius: 50% 51%;
     border-top-right-radius: 50% 51%;
     color: transparent;
@@ -157,4 +134,18 @@ footer h2 {
     text-shadow: 2px 1px black;
     letter-spacing: 0.05rem;
     font-size: 2rem;
+    margin: 0;
 }
+
+  @media screen and (max-width: 400px) {
+    body{
+        width: 100%;
+
+    }
+    #logo {
+        font-size: 3rem;
+    }
+    #tunnel {
+        display: none;
+    }
+  }
