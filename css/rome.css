@@ -64,6 +64,10 @@ header {
     font-size: 5rem;
 }
 
+.carousel ul li h1 {
+    font-size: 2em;
+}
+
 .city {
     margin: var(--margin-city);
 }
