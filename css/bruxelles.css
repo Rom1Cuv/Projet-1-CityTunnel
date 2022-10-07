@@ -1,9 +1,39 @@
-@media screen and (min-width: 601px) { 
-    main.part2 { 
-      display: flex;
-      
-    } 
+    :root {
+        --primary-color: #ffb994;
+        --secondary-color: #ffcc7d;
+        --light: #fff;
+        --dark: #000;
+        
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        width: 100%;
+        position: relative;
+        background: #bb8e9b;
+        border-bottom: 3px solid lightgrey ;
+        border-bottom-left-radius: 50% 51%;
+        border-bottom-right-radius: 50% 51%;
+    }
+    
+    a:link, a:hover{
+        text-decoration: none;
+    }
 
+    
+    
+    @media screen and (min-width: 601px) { 
+
+    /*--------MOBILE----------*/
+
+    main.part2 { 
+        display: flex;
+        
+      } 
+      
     .part1{
     display: flex;
    
@@ -60,11 +90,9 @@
 
     .rubriqueGastronomie{
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
 
-    
     .rubriqueArchitecture{
         display: flex;
         flex-direction: column;
@@ -90,7 +118,7 @@
     .menuClassementBieres{
         display: flex;
         margin-top: 20px;
-        ;  
+        
     }
 
     .uk-inline{
@@ -108,7 +136,6 @@
         margin-left: 5%;
     }
     
-
     .texteDetails h3{
         text-align: center;
     }
@@ -131,14 +158,13 @@
     .Horta-img{
         min-width: 200px;
         min-height: 200px;
-     }
+    }
 
     .Tintin-img{
         min-width: 200px;
         min-height: 200px;;
     }
 
-    
     .pralines-img{
         min-width: 200px;
         min-height: 200px;
@@ -153,35 +179,13 @@
         min-width: 200px;
         min-height: 200px;
     }
-
-    
-
-  }
-
-
-:root {
-    --primary-color: #ffb994;
-    --secondary-color: #ffcc7d;
-    --light: #fff;
-    --dark: #000;
 }
+    /*--------MOBILE FIN----------*/
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20vh;
-    width: 100%;
-    position: relative;
-    background: #bb8e9b;
-    border-bottom: 3px solid lightgrey ;
-    border-bottom-left-radius: 50% 51%;
-    border-bottom-right-radius: 50% 51%;
-}
+  
 
-a:link, a:hover{
-    text-decoration: none;
-}
+
+    /*--------DESKTOP----------*/
 
 main{
     display: flex;
@@ -191,12 +195,11 @@ main{
     
 }
 
-
 @font-face {
     font-family:'MilkyCoffee';
     src: url(MilkyCoffee/Milky-Coffee.otf);
     src: url(MilkyCoffee/Milky-Coffee.ttf);
-  }
+}
   
 .part1{
     display: flex;
@@ -227,8 +230,6 @@ main{
     box-shadow: 5px 5px 5px grey;
     margin-top: 20px;
     margin-bottom: 20px;
-    
-  
 }
 
 .presentationbru{
@@ -237,7 +238,6 @@ main{
     padding-right: 10%;
     border-radius: 20px;
     text-align: justify;
-    
     margin: 3px;
 }
 
@@ -247,10 +247,9 @@ main{
     color: rgb(128, 0, 64);
 }
 
-.part2{
-    
-}
 
+
+.part2{}
 
 .divDetails{
     
@@ -263,8 +262,7 @@ main{
     border-right: 1px solid rgb(128, 0, 64);
     margin-bottom: 2px;
     color: #000;
-    
- }
+   }
 
 .imgDetails{
     background-position: center;
@@ -274,38 +272,7 @@ main{
     height: 150px;
     width: 150px;
     margin-left: 30%;
-    
-    
-}
-
-.Mannekenpis-img{
-    background-image: url(https://i.pinimg.com/originals/06/e9/6c/06e96ccffeca34a6b52be8719eaf0ee6.gif);
-    
-}
-.Moulesfrites-img{
-    background-image: url(https://sf1.viepratique.fr/wp-content/uploads/sites/2/2014/02/shutterstock_115952584.jpg);
-    
-}
-.Horta-img{
-    background-image: url(http://patrimoine.brussels/images/decouvrir/chantiers/hotel-van-eetvelde-2/@@images/05fc2a4b-71c2-4ca4-bf9c-b3418bc09cd5.jpeg) ;
-    
-}
-.Tintin-img{
-    background-image: url(https://cdn001.tintin.com/public/tintin/img/static/essentials-test/tintin-milou.png) ;
-    
-}
-.pralines-img{
-    background-image: url(https://img.cuisineaz.com/680x357/2019/07/21/i148221-.webp);
-    
-}
-.Bieresbelges-img{
-    background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/6I6HWEV26BDKHOYZX3W4BQANCA.jpg);
-    
-}
-.Cinema-img{
-    background-image: url(https://www.vivreenbelgique.be/images/vivreenbelgique/fiche18/entree-sur-scene-internationale-andre-delvaux.jpg);
-    
-}
+    }
 
 .texteDetails{
     margin-left: 10%;
@@ -320,7 +287,6 @@ main{
 
 .rubriqueMannekenpis{
     flex-direction: column;
-    
 }
 
 .slideTitle{
@@ -336,17 +302,25 @@ main{
     margin-top: 15px;
 }
 
-
 .rubriqueGastronomie{
     flex-direction: column;
 }
+#adjustSlide{
+    width: 220px;
+    margin-left: 10%;
+}
+.brusseleer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .rubriqueArchitecture{
     flex-direction: column;
 }
 .suggestionMusee{
     text-align: center;
     margin-top: 15px;
-    margin-left: 10%;
 }
 
 .rubriqueBieres{
@@ -355,7 +329,6 @@ main{
 .uk-button uk-button-default{
     margin-top: 20px;
     color: #000;
-    
 }
 
 .menuClassementBieres{
@@ -366,11 +339,32 @@ main{
     flex-direction: column;
 }
 .dikkenek{
-    text-align: left;
-    margin-left: 10%;
+    text-align: center;
 }
 
+.Mannekenpis-img{
+    background-image: url(https://i.pinimg.com/originals/06/e9/6c/06e96ccffeca34a6b52be8719eaf0ee6.gif);
+}
+.Moulesfrites-img{
+    background-image: url(https://sf1.viepratique.fr/wp-content/uploads/sites/2/2014/02/shutterstock_115952584.jpg);
+}
+.Horta-img{
+    background-image: url(http://patrimoine.brussels/images/decouvrir/chantiers/hotel-van-eetvelde-2/@@images/05fc2a4b-71c2-4ca4-bf9c-b3418bc09cd5.jpeg) ;
+}
+.Tintin-img{
+    background-image: url(https://cdn001.tintin.com/public/tintin/img/static/essentials-test/tintin-milou.png) ;
+}
+.pralines-img{
+    background-image: url(https://img.cuisineaz.com/680x357/2019/07/21/i148221-.webp);
+}
+.Bieresbelges-img{
+    background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/6I6HWEV26BDKHOYZX3W4BQANCA.jpg);
+}
+.Cinema-img{
+    background-image: url(https://www.vivreenbelgique.be/images/vivreenbelgique/fiche18/entree-sur-scene-internationale-andre-delvaux.jpg);
+}
 
+/*--------DESKTOP FIN----------*/
 
 
 
