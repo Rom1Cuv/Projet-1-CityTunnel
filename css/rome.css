@@ -205,7 +205,16 @@ section {
 }
 
 .text-img {
+    margin: 20px;
     text-align: center;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    min-width: 220px;
+    margin: auto;
 }
 
 figcaption {
